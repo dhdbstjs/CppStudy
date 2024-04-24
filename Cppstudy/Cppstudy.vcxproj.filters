@@ -63,5 +63,8 @@
     <ClCompile Include="삼항연산자.cpp">
       <Filter>Source Files\0423</Filter>
     </ClCompile>
+    <ClCompile Include="함수실습1.cpp">
+      <Filter>Source Files\0424</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
