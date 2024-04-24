@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\0424">
+      <UniqueIdentifier>{67144ec4-db39-40dd-b0e1-f2bc0f5c2619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\0423">
+      <UniqueIdentifier>{25acfa46-45e7-4eab-b966-b8bb9ee2a45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\0422">
+      <UniqueIdentifier>{578450ae-a631-4c84-8e28-431ea472011d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="함수.cpp">
+      <Filter>Source Files\0424</Filter>
+    </ClCompile>
+    <ClCompile Include="0423실습.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+    <ClCompile Include="계산기.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+    <ClCompile Include="for구구단.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+    <ClCompile Include="n까지의합.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+    <ClCompile Include="실습3while.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+    <ClCompile Include="실습4while.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력연습.cpp">
+      <Filter>Source Files\0422</Filter>
+    </ClCompile>
+    <ClCompile Include="elseif.cpp">
+      <Filter>Source Files\0422</Filter>
+    </ClCompile>
+    <ClCompile Include="else.cpp">
+      <Filter>Source Files\0422</Filter>
+    </ClCompile>
+    <ClCompile Include="삼항연산자.cpp">
+      <Filter>Source Files\0423</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
