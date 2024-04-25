@@ -30,7 +30,7 @@ int main()
 {
 	int arrlist[max_arr] = { 10, 20, 30, 40, 50 };
 
-	reverse(&arrlist[0]); // &arrlist[0]
+	reverse(arrlist); // &arrlist[0] //포인터로 설정을 했기때문에 이미 주소값을 가지고있어서 &로 선언하지 않아도된다?
 
 	return 0;
 }
