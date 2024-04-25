@@ -84,5 +84,11 @@
     <ClCompile Include="다차원배열실습.cpp">
       <Filter>Source Files\0425</Filter>
     </ClCompile>
+    <ClCompile Include="스코프설명.cpp">
+      <Filter>Source Files\0425</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터실습.cpp">
+      <Filter>Source Files\0425</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

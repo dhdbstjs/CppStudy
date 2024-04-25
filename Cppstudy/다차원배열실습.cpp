@@ -27,3 +27,25 @@ int main()
 
 	return 0;
 }
+
+
+
+// 전처리 define 사용법
+/*
+#include <iostream>
+#define ROW_SIZE 5
+#define COL_SIZE 4
+using namespace std;
+int main()
+{
+	//int dim2Array1[5][4] = { 0 };
+	int dim2Array2[ROW_SIZE][COL_SIZE] = { 0 };
+	for (int i = 0; i < ROW_SIZE; i++)
+	{
+		for (int j = 0; j < COL_SIZE; j++)
+		{
+		}
+	}
+}
+
+*/
