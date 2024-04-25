@@ -87,7 +87,7 @@
     <ClCompile Include="스코프설명.cpp">
       <Filter>Source Files\0425</Filter>
     </ClCompile>
-    <ClCompile Include="포인터실습.cpp">
+    <ClCompile Include="포인터실습1.cpp">
       <Filter>Source Files\0425</Filter>
     </ClCompile>
   </ItemGroup>
