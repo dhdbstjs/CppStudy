@@ -31,6 +31,13 @@ float divide(int n1, int n2)
 	// 강제 형변환 처음에 리턴을 int로 줘서 결과값이 이상했음
 }
 
+//이런식으로도 가능하다
+//float divide(float n1, float n2)
+//{
+//	return n1 / n2;
+//
+//}
+
 
 int main()
 {

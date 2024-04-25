@@ -22,6 +22,9 @@
     <Filter Include="Source Files\0422">
       <UniqueIdentifier>{578450ae-a631-4c84-8e28-431ea472011d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\0425">
+      <UniqueIdentifier>{e2f8d61d-3e2a-4f64-a838-e818d2aaf2ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -65,6 +68,21 @@
     </ClCompile>
     <ClCompile Include="함수실습1.cpp">
       <Filter>Source Files\0424</Filter>
+    </ClCompile>
+    <ClCompile Include="홀짝함수.cpp">
+      <Filter>Source Files\0424</Filter>
+    </ClCompile>
+    <ClCompile Include="배열.cpp">
+      <Filter>Source Files\0424</Filter>
+    </ClCompile>
+    <ClCompile Include="배열실습1_오류.cpp">
+      <Filter>Source Files\0424</Filter>
+    </ClCompile>
+    <ClCompile Include="배열실습1_리더풀이.cpp">
+      <Filter>Source Files\0424</Filter>
+    </ClCompile>
+    <ClCompile Include="다차원배열실습.cpp">
+      <Filter>Source Files\0425</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
