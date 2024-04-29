@@ -108,5 +108,11 @@
     <ClCompile Include="2차원배열복습_행렬합.cpp">
       <Filter>Source Files\0429</Filter>
     </ClCompile>
+    <ClCompile Include="리스트.cpp">
+      <Filter>Source Files\0429</Filter>
+    </ClCompile>
+    <ClCompile Include="실습1리스트.cpp">
+      <Filter>Source Files\0429</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

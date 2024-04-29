@@ -44,7 +44,7 @@ int main()
 	cout << "각 열의 합: \n";
 	for (int j = 0; j < cols; ++j)
 	{
-		int colSum = 0;
+		int colSum = 0; // 메모리 사용을 줄이기위해서 for문 밖으로 빼주고 for문 밖에서 colSum = 0으로 초기화해주는 방법도 있다.
 		for (int i = 0; i < rows; ++i)
 		{
 			colSum += array[i][j];
