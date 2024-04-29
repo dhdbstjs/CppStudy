@@ -53,13 +53,6 @@ int main()
 	}
 	cout << endl;
 
-
-	// 동적 배열 초기화
-	// 열에 할당된 메모리는 각 행의 메모리 블록에 대한 포인터일 뿐이기 때문에 별도로 할당된 메모리 블록이 아님
-	// 행의 메모리 해제함에따라 열의 메모리도 해제됨
-	for (int i = 0; i < rows; ++i) {
-		delete[] array[i];
-	}
 	delete[] array;
 
 	return 0;
