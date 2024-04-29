@@ -25,6 +25,9 @@
     <Filter Include="Source Files\0425">
       <UniqueIdentifier>{e2f8d61d-3e2a-4f64-a838-e818d2aaf2ac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\0429">
+      <UniqueIdentifier>{f460bb05-c170-40e5-a5e7-e8ddad48678a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -95,6 +98,9 @@
     </ClCompile>
     <ClCompile Include="동적배열실습.cpp">
       <Filter>Source Files\0425</Filter>
+    </ClCompile>
+    <ClCompile Include="벡터성능체크.cpp">
+      <Filter>Source Files\0429</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
