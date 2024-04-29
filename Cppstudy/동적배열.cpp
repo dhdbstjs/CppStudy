@@ -11,3 +11,23 @@ using namespace std;
 // -> 꼭 delete를 통해서 동적배열을 초기화 해주어야한다
 // new와 delete를 꼭 짝지어서 구성하자!
 // 가비지 콜렉팅 기능이 없어서 꼭 같이 써줘야한다
+
+
+
+// 2차원 배열 동적 할당해서 입력받기
+// 권장하는 방법
+
+int main() {
+    int N, M;
+    cin >> M >> N;
+
+    int** array = new int* [N]; // 배열을 선언할 때, 이중 포인터를 사용한다.
+    for (int i = 0; i < N; i++) {
+        array[i] = new int[M]; // 각 row마다 다양한 길이의 배열 크기를 생성할 수 있다.
+        fill_n(array[i], M, 0); // 지역변수로 선언했다면 초기화 해주어야 한다.
+        for (int j = 0; j < M; j++) {
+            cin >> array[i][j];
+        }
+    }
+    // ... 생략
+}
