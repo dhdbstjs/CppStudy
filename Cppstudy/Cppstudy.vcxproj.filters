@@ -102,5 +102,8 @@
     <ClCompile Include="벡터성능체크.cpp">
       <Filter>Source Files\0429</Filter>
     </ClCompile>
+    <ClCompile Include="벡터중복삭제.cpp">
+      <Filter>Source Files\0429</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
